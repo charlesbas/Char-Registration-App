@@ -8,7 +8,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## JSON local server
 
-Run `npm run server` to start the json local server on `http://localhost:5000/` . The server will be automatically updated if you interract with the app view. 
+Run `npm run server` to start the json local server on `http://localhost:5000/` . The server will be automatically updated when you interract with the app view. 
 
 ## Code scaffolding
 
