@@ -139,7 +139,7 @@ body {
   font-weight: 500;
 }
 
-.radios{
+.payment-chekbox{
   color: #dd4f05;
   font-weight: 500;
   display: flex;
@@ -148,13 +148,13 @@ body {
   margin-bottom: 20px;
 }
 
-.radios input{
+.payment-chekbox input{
   margin-left: 30px;
   /* border-radius: ; */
   border-color: #FF3457;
 }
 
-.radios label{
+.payment-chekbox label{
   margin-left: 5px;
 }
 

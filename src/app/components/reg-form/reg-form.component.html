@@ -11,16 +11,14 @@
     <div class="" style="display: flex;">
         <div class="date">
             <label for="payment-status" style="display: block; margin-left: 7px;">Date of Birth</label>
-            <input class="date-box form-box-input" type="date" style="color: rgb(107, 107, 107);" name="date" [(ngModel)]="date" id="date" style="display: block"/>
+            <input class="date-box form-box-input" type="date" style="color: rgb(107, 107, 107); display: block" name="date" [(ngModel)]="date" id="date"/>
         </div>
         <div class="date sex-div">
             <label for="payment-status" style="margin-left: 10px;">Sex</label>
-            <form action="" >
                 <select class="sex-input" label="Sex" name="sex" id="sex" style="color: rgb(107, 107, 107);" [(ngModel)]="sex" placeholder="Male">
-                    <option value="Male" style="color: rgb(107, 107, 107);" selected="select">Male</option>
+                    <option value="Male" style="color: rgb(107, 107, 107);" selected="selected">Male</option>
                     <option value="Female" style="color: rgb(107, 107, 107);">Female</option>
                 </select>
-            </form>
         </div>
     </div>
     <div class="form-control email">
@@ -31,7 +29,7 @@
         <label for="payment-status">Mobile number</label>
         <input class="box form-box-input" type="tel" name="phone" [(ngModel)]="phone" id="phone" placeholder="ex. 080xxxxxxxx" />
     </div>
-    <div class="radios">
+    <div class="payment-checkbox">
         <label for="payment-status">Payment Confimed?</label>
         <input type="checkbox" name="hasPaid" [(ngModel)]="hasPaid" id="hasPaid" />
     </div>
