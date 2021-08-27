@@ -1,0 +1,11 @@
+<div [ngClass]="{hasPaid: regList?.hasPaid}" class="reg" (dblclick)="onToggle(regList)">
+    <h3>
+        {{regList?.firstname}} {{regList?.lastname}}
+        <fa-icon [icon]="faTimes" class="x-icon" [ngStyle]="{'color':'#FF3457'}"
+        (click)="onDelete(regList)"></fa-icon>
+    </h3>
+    <p>Email: {{regList?.email}}</p>
+    <p>Phone: {{regList?.phone}}</p>
+    <p>Sex: {{regList?.sex}}</p>
+    <p>Date of Birth: {{regList?.date}}</p>
+</div>

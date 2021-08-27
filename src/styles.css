@@ -1,0 +1,280 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway' , sans-serif;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 100%px;
+  border: 1px solid #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgb(180, 176, 176);
+  /* background-color: #dd5105ad; */
+}
+
+.reg-container{
+  max-width: auto;
+  margin-left: -30px;
+  margin-right: -30px;
+  overflow: auto;
+  min-height: auto;
+  border: 1px solid rgba(88, 88, 88, 0.801);
+  padding: 30px;
+  visibility: 50%;
+  background-color: rgba(88, 88, 88, 0.801);
+}
+
+.register{
+  margin: 10px 10px 20px 7px;
+  color:  #ffffff;
+  font-family: 'Raleway' , sans-serif;
+  font-weight: 800;
+  margin-top: 20px;
+}
+
+.contain{
+  display:flex;
+  font-weight: 800;
+  justify-content: space-between;
+  /* border: 1px solid #91330018; */
+  box-shadow: 1px 1px 4px 2px #585756a9;
+  padding-bottom: 4px;
+  padding-left: 12px;
+  padding-right: 10px;
+  border-radius: 100px;
+}
+.btn {
+  display: inline-block;
+  background: #000;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 7px 15px;
+  margin: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: inherit;
+  box-shadow: 1px 1px 1px #2926259c;
+}
+
+.btn:focus {
+  outline: none;
+}
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-block {
+  display: block;
+  width: 60%;
+  justify-self: center;
+  margin: auto;
+  transition: all .1s ease;
+  transform: scale(1);
+  background-color:  #dd4f05;
+  font-weight: 600;
+  border-radius: 50px;
+}
+
+.btn-block:hover{
+  transform: scale(1.00) perspective(1px);
+  backface-visibility: hidden;
+  /* transform: translateZ(0); */
+  /* --webkit-font-smoothing: subpixel-antialiased; */
+  box-shadow: 1px 1px 6px 3px #cc8964;
+  background-color: #f15500;
+}
+
+.sex-input{
+  width: 22%;
+  height: 38px;
+  margin-left: 7px;
+  font-family: 'Raleway' , sans-serif;
+  font-size: 17px;
+  border-radius:10px;
+  /* box-shadow: 1px 1px 1px 1px rgb(85, 85, 85); */
+  border-radius:10px;
+  border: .5px;
+  padding: 3px 7px;
+}
+
+.sex-input:hover{
+  transform: scale(1.001) perspective(1px);
+  backface-visibility: hidden;
+  /* transform: translateZ(0); */
+  /* --webkit-font-smoothing: subpixel-antialiased; */
+  box-shadow: 1px 1px 7px 3px rgb(121, 121, 121);
+}
+
+.date-sex{
+  display: flex;
+  margin-bottom: -200px;
+}
+
+.email{
+  margin-top: -5px;
+  margin-bottom: 15px;
+}
+
+.form-control label {
+  display: block;
+  margin-left: 7px;
+  /* color: #FFF530; */
+  color: #dd4f05;
+  font-weight: 500;
+}
+
+.radios{
+  color: #dd4f05;
+  font-weight: 500;
+  display: flex;
+  margin-left: 7px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.radios input{
+  margin-left: 30px;
+  /* border-radius: ; */
+  border-color: #FF3457;
+}
+
+.radios label{
+  margin-left: 5px;
+}
+
+.form-control input {
+  width: 100%;
+  height: 38px;
+  margin: 5px;
+  margin-top: 6px;
+  padding: 3px 7px;
+  font-size: 17px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(119, 119, 119);
+}
+
+.form-control input:focus{
+  outline: none;
+}
+
+.header-line{
+  box-shadow: 5px 3px 4px rgb(92, 76, 64);
+  margin-left: -37px;
+  margin-right: -30px;
+  max-width: auto;
+  padding-top: 5px;
+  margin-top: -28px;
+  padding-bottom: 1px;
+  border: thin;
+  border-color: black;
+  background-color: #868686da;
+}
+
+.names{
+  display: flex;
+}
+
+.names input{
+  width: 90%;
+  height: 38px;
+  margin: 5px;
+  margin-top: 6px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+.form-box-input{
+  /* box-shadow: 1px 1px 1px 1px rgb(85, 85, 85); */
+  border-radius:10px;
+  border: .5px;
+  color: rgb(107, 107, 107);
+}
+
+.date{
+  margin: 20px 0;
+  /* color: #FFF530; */
+  color: #dd4f05;
+  font-weight: 500;
+  display: block;
+}
+
+#date{
+  font-family: 'Raleway' , sans-serif;
+  color: rgb(104, 104, 104);
+  width: 100%;
+  height: 38px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+.sex-div{
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+#sex{
+  width: 100%;
+  margin-top: 4.5px;
+}
+
+.lastname{
+  margin-left: 33%;
+}
+
+.full-name{
+  display: block;
+  margin-left: 7px;
+  /* color: #FFF530; */
+  color: #dd4f05;
+  font-weight: 500;
+}
+
+.form-box-input:hover{
+  transform: scale(1) perspective(1px);
+  backface-visibility: hidden;
+  /* transform: translateZ(0); */
+  /* --webkit-font-smoothing: subpixel-antialiased; */
+  box-shadow: 1px 1px 7px 3px rgb(121, 121, 121);
+}
+
+.form-box-input:focus{
+  outline: none;
+}
+
+.form-control-check {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.form-control-check label {
+  flex: 1;
+}
+
+.form-control-check input {
+  flex: 2;
+  height: 15px;
+  border-radius: 50px;
+}
+
+.form-control-check input:valid{
+  background-color: thistle;
+}

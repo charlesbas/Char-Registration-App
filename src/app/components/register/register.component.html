@@ -1,0 +1,7 @@
+<app-reg-form (onNewReg)="addNewReg($event)" ></app-reg-form>
+
+<div class="reg-container"><app-register-list *ngFor= "let reg of regs | orderBy:'paid':false|orderBy:'hasPaid':true"
+[regList]=reg 
+(onTogglePaid)="paymentStat(reg)"
+(onDeleteReg)="deleteReg(reg)">
+</app-register-list></div>

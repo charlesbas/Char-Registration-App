@@ -1,0 +1,10 @@
+<header>
+    <div class="contain"><h1 class="h1text1">{{title}}</h1><h1 class="h1text2">Char*</h1></div>
+    
+    <app-button 
+    *ngIf="hasRoute('/')" class="header-btn"
+    color="{{showRegList ? '#dd4f05' : 'rgb(41, 178, 188)' }}"
+    text="{{showRegList ? 'Close form' : 'Click here to Register' }}"
+    (btnClick)="toggleRegList()">
+</app-button>
+</header>
