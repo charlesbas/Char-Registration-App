@@ -1,26 +1,15 @@
 {
   "Regs": [
     {
-      "firstname": "Sammy",
-      "lastname": "Davies",
+      "firstname": "John",
+      "lastname": "Doe",
       "date": "1996-08-12",
       "sex": "Male",
-      "email": "sammydavies@yahoo.com",
-      "phone": "08163581418",
+      "email": "johndoe@mail.com",
+      "phone": "09030000000",
       "hasPaid": true,
       "paid": "2021-08-24T20:35:21.664Z",
-      "id": 3
-    },
-    {
-      "firstname": "Francess",
-      "lastname": "Wick",
-      "date": "2001-08-13",
-      "sex": "Female",
-      "email": "francess007@hotmail.com",
-      "phone": "0802234874837",
-      "hasPaid": false,
-      "paid": "2021-08-24T20:37:34.547Z",
-      "id": 5
+      "id": 1
     }
   ]
 }
